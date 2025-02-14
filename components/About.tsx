@@ -20,9 +20,9 @@ export default function About() {
     <motion.div
          initial={{ opacity: 0, y: 50 }}
         animate={controls }
-         className="grid grid-cols-2 items-center p-10" >
-               <div  className="top-0 left-0 right-0 bottom-0 -z-30 absolute bg-slate-7002/10 backdrop-blur-sm ">   </div>
-               <img className="absolute  -z-40 " src="/bg1.svg"  alt="bg-image" />
+         className="grid grid-cols-2 items-center p-10 " >
+               <div  className="top-0 left-0 right-0 bottom-0 -z-30 absolute bg-slate-700/10 backdrop-blur-sm ">   </div>
+               <img className="absolute  -z-40 " src="/Meteor.svg"  alt="bg-image" />
                 <motion.img
                         src="/thorfinn.png" 
                         alt="Floating Icon"

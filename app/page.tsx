@@ -1,10 +1,8 @@
 "use client"
 
-// import Contact from "@/components/Contact";
+import Projects from "@/components/Projects";
 import Hero from "@/components/Hero";
-// // import Navbar from "@/components/Navbar";
-// import Projects from "@/components/Projects";
-// import Skill from "@/components/Skill";
+
 
 import { useEffect, useState } from "react";
 import throttle from "lodash/throttle"
@@ -41,7 +39,7 @@ export default function Home() {
      { index === 0 && <Hero />}
    { index === 1 &&   <About />}
    { index === 2 &&  <Skill />}
- {   index === 3 &&   <div className="bg-blue-500 h-[500px] w-[500px]"></div>}
+ {   index === 3 &&   <Projects />}
 
  <div className="absolute bottom-10 left-5 z-50">
   <a  href="https://github.com/MohdSaquib114" target="_blank" rel="noopener noreferrer">

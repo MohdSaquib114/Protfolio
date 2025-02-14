@@ -38,9 +38,9 @@ export default function Hero() {
         </motion.div>
         
         <motion.div 
-           initial={{ opacity: 0, y: 50 }}
+           initial={{ opacity: 0 }}
            animate={controls }
-        className="  flex justify-center ">
+           className="  flex justify-center ">
            <div className="absolute  right-80 top-52 rouned ">
             <motion.img
                 src="/code.png" 

@@ -26,9 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-y-hidden bg-[url('/anim-bg.svg')] bg-cover bg-center`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-y-hidden `}
       >
         <div className="absolute top-0 left-0 right-0 bottom-0 bg-purple-500/20 backdrop-blur-sm -z-50"></div>
+        <img className="absolute min-h-screen -z-50" src="/anim-bg.svg" alt="bg-img" />
         <Navbar />
         {children}
       </body>
