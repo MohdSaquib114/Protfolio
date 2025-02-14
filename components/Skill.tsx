@@ -1,4 +1,4 @@
-import { ReactElement, useEffect } from "react";
+import {  useEffect } from "react";
 import SquezeCharacter from "./SquezeCharacter"
 import { motion,useAnimation  } from "framer-motion";
 import { TbBrandRedux } from "react-icons/tb";
